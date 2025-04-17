@@ -6,7 +6,7 @@ import rockImg from "./assets/rock.png";
 import scissorsImg from "./assets/scissors.png";
 import paperImg from "./assets/paper.png";
 
-const choice = {
+export const choice = Object.freeze({
   rock: {
     name: "Rock",
     img: rockImg,
@@ -19,7 +19,7 @@ const choice = {
     name: "Paper",
     img: paperImg,
   },
-};
+});
 
 //1. 박스 2개 (title, 사진, 결과값)
 //2. 가위 바위 보 버튼 있음.
